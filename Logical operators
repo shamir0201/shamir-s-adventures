@@ -1,0 +1,9 @@
+is_underweight = False
+
+is_above_80kgs = True
+
+if is_underweight and not is_above_80kgs:
+    print("eat some food")
+    
+else :
+    print("you fat idiot!!")
