@@ -1,0 +1,8 @@
+name =input("what's your name ? " )
+
+if len(name) < 3:
+    print("yor name should be atleast 20 characters")
+elif len(name) > 20 :
+    print("your name should be atmost of 20 characters")
+else:
+    print("Your name is perfect")
