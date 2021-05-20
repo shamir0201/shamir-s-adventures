@@ -1,0 +1,9 @@
+has_eaten_two_oreos = True
+
+havent_eaten_oreos =False
+
+if has_eaten_two_oreos and havent_eaten_oreos:
+    print("eat another oreo")
+
+else :
+    print("you are obese!!")
