@@ -1,0 +1,11 @@
+distance = int(input("what is your distance: "))
+unit = input("(M)trs or (KM)trs: ")
+if unit.upper() == "M" :
+    converted = distance / 1000
+
+    print(f"your converted distance is {converted} kilometres ")
+
+else :
+    converted = distance * 1000
+
+    print(f"your converted distance is {converted} metres ")
