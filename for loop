@@ -1,0 +1,2 @@
+for piece in ["shamir","thannu","shajitha","khadar","zaheer" ]:
+    print(piece)
