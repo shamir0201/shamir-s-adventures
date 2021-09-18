@@ -7,7 +7,7 @@ while True:
             print("car is laready started")
         else :
             started = True
-            print("Car is started and a journey awaits")
+            print("Car is started")
     elif command == "stop":
         if not started:
             print("the car  is already stopped")
